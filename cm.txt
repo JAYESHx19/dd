@@ -1,0 +1,40 @@
+1 download composer 
+-composer.setup.exe
+
+2.install composer
+c:xampp/php/php.exe
+add path
+
+3.open command prompt : c/xampp/php --> type cmd
+
+4.composer press enter
+
+5.composer create-project Laravel/Laravel demo  #(project name)
+
+6.cd demo
+
+7.php artisan server
+-127.0.0.1v (copy url)
+paste in browser
+
+8.cmd-->press ctrl+c
+
+9.php artisan make:model model-name
+
+10.php artisan make:controller controller-name
+
+11.open xampp-->create databse Laravel
+
+12.open folder structure(c:\xampp\php\demo\database\migration)
+
+13.copy first folder and past there itself
+
+14.(create table product) rename 0001_01_01_000000_create_users_table   to  0001_01_01_000000_create_product_table
+
+15.php artisan migrate  
+
+16.php migrate up
+
+17.php migrate down
+
+
